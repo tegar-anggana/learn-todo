@@ -11,7 +11,7 @@ export default function Header({ subtitle = "Welcome back, Tegar!" }) {
       </div>
       <div className="flex items-center gap-5">
         <Link href={"/profile"}>Profile</Link>
-        <LogoutDialog/>
+        <LogoutDialog />
       </div>
     </div>
   );

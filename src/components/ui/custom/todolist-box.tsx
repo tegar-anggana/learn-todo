@@ -15,7 +15,7 @@ const tasks = [
     status: "To Do",
   },
   {
-    id: "1",
+    id: "2",
     title: "Finish frontend todolist",
     category: "Work",
     description: "Due date 10 januari 2024",
