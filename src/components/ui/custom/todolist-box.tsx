@@ -21,17 +21,15 @@ const tasks = [
 
 export function TodolistBox() {
   return (
-    <div className="bg-gray-100 w-full py-4 px-4 rounded-lg mt-5">
+    <div className="bg-gray-100 py-4 px-4 rounded-lg mt-5 flex-1">
       <div className="flex gap-4 items-center mb-4">
         <p className="text-lg">Tasks</p>
-        <Button>
-            <Plus className="h-4 w-4 mr-2" /> Add
-          </Button>
+        <Button size={"xs"}>Add</Button>
       </div>
       <div className="flex flex-col gap-2">
         {tasks.map((task) => (
           <div key={task.id} className="p-2 flex bg-gray-200 rounded-lg">
-            <Button className="mr-3 mt-1" size={"sm"}>
+            <Button className="mr-3 mt-1" size={"xs"}>
               {task.status}
             </Button>
             <div>
