@@ -23,7 +23,7 @@ export function DeleteCategoryDialog() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>Confirm Logout</DialogTitle>
+          <DialogTitle>Confirm Delete</DialogTitle>
           <DialogDescription>
             Are you sure you want to log out?
           </DialogDescription>
